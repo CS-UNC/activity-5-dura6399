@@ -71,7 +71,9 @@ def uses_only(word, letters):
             return False
     return True
     
-#def all_uses_only(file, letters)
+def all_uses_only(file, letters):
+    data = open(file, 'r')
+    
 
 
 
