@@ -56,11 +56,15 @@ def more_than_20(file):
 print(more_than_20("CROSSWD.txt"))
 
 def has_no_e(word):
-    word = []
-    if 'e' in len(word.strip()): 
+    word = ''
+    if 'e' in word.strip(): 
         return True
     else:
         return False
+
+
+word = 'allegory'
+print(has_no_e(word))
 
 
 
