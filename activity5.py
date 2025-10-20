@@ -59,7 +59,7 @@ def has_no_e(word):
     for x in word:
         if x in word == 'e':
             return False
-        if x in word != 'e':
+        elif x in word != 'e':
             return True
 
 word = 'maximus'
