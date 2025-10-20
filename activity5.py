@@ -65,9 +65,11 @@ def has_no_e(word):
 word = 'allegory'
 print(has_no_e(word))
 
-
-
-#def uses_only(word, letters)
+def uses_only(word, letters):
+    for x in word:
+        if x not in letters:
+            return False
+    return True
     
 #def all_uses_only(file, letters)
 
