@@ -42,7 +42,7 @@
 #            print(line.strip())
 
 
-def more_than_twenty(file):
+def more_than_20(file):
     words = []
     data = open(file, 'r')
 
@@ -53,7 +53,7 @@ def more_than_twenty(file):
     words = [x.strip() for x in data if len(x.strip()) > 20]
     return words
 
-print(more_than_twenty("CROSSWD.txt"))
+print(more_than_20("CROSSWD.txt"))
 
 def has_no_e(word):
     word = []
