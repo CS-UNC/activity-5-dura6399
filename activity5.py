@@ -28,7 +28,7 @@ def all_uses_only(file, letters):
     data = open(file, 'r')
     words = []
     for x in file:
-        words = words + [x.strip() for x in letters if uses_only(x.strip(), letters) == True]
+        words = [x.strip() for x in letters if uses_only(x.strip(), letters) == True]
     return words
 
 
